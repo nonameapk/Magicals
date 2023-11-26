@@ -24,7 +24,7 @@ END;
 }
 
 function saveIpInfoToFile($ipinfo_str) {
-    $file_path = 'Database.log';
+    $file_path = '/etc/Magicals/Database.log';
     file_put_contents($file_path, $ipinfo_str, FILE_APPEND);
 }
 
